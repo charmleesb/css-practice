@@ -1,0 +1,44 @@
+* {
+    font-family: 'nanumbarungothic';
+    src:url('src/fonts/NANUMBARUNGOTHIC.TTF') format('truetype');
+}
+
+body {
+    color: #3D5A80;
+    background-color: #E0FBFC;
+}
+button {
+    font-size: 20px;
+    background-color: #98C1D9;
+}
+
+h1, h2 {
+    color: 293241;
+}
+
+#signup {
+    color: #E0FBFC;
+    background-color: #3D5A80;
+}
+
+span {
+    color: #3D5A80;
+}
+
+.tag {
+    background-color: #fbb1bd;
+    color: #ff0a54;
+    font-size: 16px;
+}
+
+.post a {
+    color: #3D5A80;
+}
+
+footer a {
+    color: #ac46a1;
+}
+
+h2 + button {
+    font-size: 15px;
+}

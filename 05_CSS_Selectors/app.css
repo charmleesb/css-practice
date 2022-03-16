@@ -33,6 +33,8 @@ span {
 
 .post a {
     color: #3D5A80;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 footer a {
@@ -41,4 +43,26 @@ footer a {
 
 h2 + button {
     font-size: 15px;
+}
+
+a[href*="google"] {
+    color: magenta;
+}
+
+.post button:hover {
+    background-color: #3D5A80;
+    color: #E0FBFC;
+}
+
+.post a:hover {
+    text-decoration: underline;
+}
+
+.post button:active {
+    background-color: #3D5A80;
+    color: #E0FBFC;
+}
+
+.post:nth-of-type(2n-1) {
+    background-color: #d4ebec;
 }

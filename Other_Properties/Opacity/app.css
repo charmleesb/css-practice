@@ -1,0 +1,22 @@
+* {
+    font-family: 'nanumbarungothic';
+}
+
+section {
+    width: 500px;
+    height: 500px;
+    background-color: #98C1D9;
+}
+
+#rgba {
+    width: 50%;
+    height: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#opacity {
+    width: 50%;
+    height: 50%;
+    background-color: yellow;
+    opacity: 0.3;
+}

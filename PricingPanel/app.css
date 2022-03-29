@@ -120,7 +120,7 @@ body {
     color: #248efe;
     display: inline-block;
     padding: 15px 35px;
-    text-decoration: none;
+    text-decoration: none;  /*button 밑줄 없애기*/
     margin: 25px 0;
     transition: background-color all 200ms ease-in-out;
 }
@@ -137,4 +137,19 @@ body {
 .pricing-button.is-featured:hover, .pricing-button.is-featured:focus {
     background-color: white;
     color: #48aaff;
+}
+
+@media (min-width: 900px) {
+    .panel {
+        flex-direction: row;
+    }
+    .pricing-plan {
+        border-bottom: none;
+        border-right: 1px solid #e1f1ff;
+        padding: 25px 50px;
+    }
+    .pricing-plan:last-child {
+        border-right: none;
+
+    }
 }
